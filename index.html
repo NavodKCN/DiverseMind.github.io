@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SLIIT Final Year Research">
+    <meta name="author" content="Devcrud">
+    <title>DiverseMind</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h4 class="header-subtitle">Hi, Welcome to</h4>
+                <h1 class="header-title">DiverseMind</h1>
+                <h6 class="header-mono">Writing Abilities | Mathematical Skills | Short-term Memory | Attention Span</h6>
+                <p><h6 class="header-mono1">An Integrated Framework for Children with Multi-Dimensional Challenges as Slow Learners</h6></p>
+            </div>
+        </div>
+    </header>
+
+    <style>
+        .header {
+            position: relative;
+            height: 80vh;
+            min-height: 600px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/imgs/kidHome.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        .header .container {
+            position: relative;
+            height: 100%;
+        }
+        .header .header-content {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 55%;
+            transform: translateY(-50%);
+            color: #fff;
+        }
+        .header .header-content .header-subtitle {
+            font-weight: 200;
+            font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+        }
+        .header .header-content .header-title {
+            font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+            font-weight: bold;
+            line-height: .7;
+            margin-bottom: 25px;
+            background: linear-gradient(to right, #ff6f00, #ff7f00, #F85C70, #F85C70, #F85C70, #F85C70);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header .header-content .header-mono {
+            letter-spacing: 5px;
+            font-weight: 500;
+            font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+            margin-bottom: 40px;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid #fff;
+            animation: typing 9s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+        }
+        .header .header-content .header-mono1 {
+            letter-spacing: 2px;
+            font-weight: 300;
+            font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+            margin-bottom: 40px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        @keyframes typing {
+            0% { width: 0; }
+            50% { width: 100%; }
+            100% { width: 0; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #fff; }
+        }
+        @media (max-width: 767.98px) {
+            .header {
+                height: 500px;
+                min-height: 500px;
+            }
+            .header .header-content {
+                padding: 20px;
+            }
+            .header .header-content .header-mono {
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+    <div class="container">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#soluion" class="nav-link">Soluion</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#doc" class="nav-link">Documents & Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#results" class="nav-link">Results</a>
+                </li>
+                <li class="nav-item last-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+            
+
+
+
+        </div>
+    </div>
+
+    <!--Resume Section-->
+<section class="section" id="research" style="padding-top: 50px; padding-bottom: 50px; background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="mb-5" style="text-align: center; color: #2c3e50; font-weight: 600; font-size: 2.5rem;"><span class="text-danger">Our</span> Research</h2>
+       
+<style>
+  .animated-text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 400px;
+    animation: 
+      fadeSlideIn 1.2s ease forwards,
+      typing 9s steps(40, end) infinite,
+      blink-caret 0.75s step-end infinite;
+    background: linear-gradient(to right, #ff6f00, #ff7f00, #F85C70);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #F85C70;
+    letter-spacing: 1.5px;
+  }
+
+  @keyframes fadeSlideIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes typing {
+    0% { width: 0; }
+    50% { width: 100%; }
+    100% { width: 0; }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #F85C70; }
+  }
+</style>
+
+<div class="row">
+  <div class="col-lg-12">
+    <div>
+      <div>
+        <div class="mt-2">
+          <h6 style="margin-bottom: 12px; padding-left: 5px; color: #6c757d; font-size: 1rem; font-weight: 500;">
+            Project Scope
+          </h6>
+          <h4 style="margin-bottom: 0; color: #2d3e50; font-size: 2.1rem; font-weight: 700; letter-spacing: -0.5px;">
+            Literature Survey
+          </h4>
+          <span class="line" style="display: inline-block; width: 90px; height: 4px; background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%); margin-top: 1rem; border-radius: 2px;"></span>
+        </div>
+      </div>
+      <div class="card-body" style="padding: 25px 30px;">
+        <div class="row align-items-stretch">
+          <div class="col-md-6">
+            <p class="subtitle" style="line-height: 1.75; color: #5a6268; margin-bottom: 1.25rem; font-size: 1rem; text-align: justify;">
+              Recent research has developed specialized tools for students with learning challenges, though most focus on diagnosed disabilities rather than slow learners, particularly in Sri Lanka. For instance, platforms like “Writaupair” [1] use NLP to assess writing issues but are not suited for brief writing tasks typical in primary education. Attention span tools [2] assess engagement using facial and behavioral cues, achieving 84.62% accuracy, yet they lack emotional interpretation and real-time intervention. In mathematics, gamified tools such as “NUMERATica” [3] enhance learning through gradual challenges, proving effective for slow learners. Meanwhile, systems like PLAS [4] address working memory by analyzing student data to offer support, though they depend heavily on historical performance and lack cognitive assessments. Despite these innovations, most solutions isolate identification from intervention and often overlook the local educational context of Sri Lankan learners."DiverseMind" aims to bridge these gaps by providing comprehensive screening and intervention for slow learners across multiple cognitive domains.
+            </p>
+
+            <h6 style="font-weight: 700; margin-top: 30px; margin-bottom: 18px; color: #343a40; border-bottom: 2px solid #e0e0e0; padding-bottom: 12px; font-size: 1.15rem;">References</h6>
+            <p class="subtitle" style="line-height: 1.7; color: #5a6268; margin-bottom: 0.6rem; font-size: 0.75rem; text-align: justify;">[1] P. R. Anish, V. Joshi, P. Sonar, and S. Ghaisas, “Writaupair: Assistive platform for children with writing difficulties,” 2021. [Online]. Available: https://doi.org/10.1109/iri51335.2021.00059.</p>
+            <p class="subtitle" style="line-height: 1.7; color: #5a6268; margin-bottom: 0.6rem; font-size: 0.75rem; text-align: justify;">[2] R. RK, S. S, V. P, and S. K, "Real-time Attention Span Tracking in Online Education," 2020 IEEE MIT Undergraduate Research Technology Conference (URTC), Cambridge, MA, USA, 2020, pp. 1-4, doi: 10.1109/URTC51696.2020.9668900.</p>
+            <p class="subtitle" style="line-height: 1.7; color: #5a6268; margin-bottom: 0.6rem; font-size: 0.75rem; text-align: justify;">[3] N. R. Zulkifli, N. A. Mat Zin, and R. Abd Majid, "Gamification Design for Teaching Numeracy to Slow Learners," International Journal of Innovative Technology and Exploring Engineering (IJITEE), vol. 8, no. 8, pp. 215–216, 2019. [Online]. https://www.researchgate.net/publication/336221574.</p>
+            <p class="subtitle" style="line-height: 1.7; color: #5a6268; margin-bottom: 0.6rem; font-size: 0.75rem; text-align: justify;">[4] Y. Sambrani, M. Lamani, P. Kumar, B. Borah, and Pragati, "Personalised Learning Assistance System for Slow Learners," International Journal of Innovative Science and Research Technology, vol. 9, no. 4, pp. 1001 1008, Apr. 2024, doi: 10.38124/ijisrt/IJISRT24APR1485.</p>
+          </div>
+          <div class="col-md-1 d-none d-md-flex justify-content-center align-items-center px-0 mx-2">
+            <div style="width: 2px; background-color: #ced4da; height: 90%;"></div>
+          </div>
+<div class="col-md-4 d-flex align-items-center">
+  <img src="assets/imgs/home2.jpeg" alt="Literature Survey Visual Representation"
+       style="width: 100%; max-height: 600px; object-fit: cover; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-lg-12">
+    <div class="mt-5 text-end mb-2">
+      <h4 style="margin-bottom: 0; color: #343a40; font-size: 1.9rem; font-weight: 600;">Research Gap</h4>
+      <span class="line" style="display: inline-block; width: 90px; height: 4px; background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%); margin-top: 1rem; border-radius: 2px;"></span>
+    </div>
+
+    <div class="card-body" style="padding: 25px 30px;">
+      <div class="row g-4">
+
+        <!-- Row 1 -->
+        <div class="col-12">
+          <div class="row g-4">
+
+            <!-- Gap 1 -->
+            <div class="col-lg-6">
+              <div class="research-card h-100">
+                <div class="research-content">
+                  <div class="icon-wrapper">
+                    <i class="bi bi-exclamation-circle-fill"></i>
+                  </div>
+                  <div class="text-content">
+                    <h6>High prevalence of learning difficulties</h6>
+                    <p>
+                      Nearly 30% of children in Sri Lanka face learning difficulties, creating an urgent need for targeted interventions. Current approaches fail to address the unique challenges of slow learners without formal diagnoses.
+                    </p>
+                  </div>
+                </div>
+                <div class="divider-right"></div>
+              </div>
+            </div>
+
+            <!-- Gap 2 -->
+            <div class="col-lg-6">
+              <div class="research-card h-100">
+                <div class="research-content">
+                  <div class="icon-wrapper">
+                    <i class="bi bi-bar-chart-line-fill"></i>
+                  </div>
+                  <div class="text-content">
+                    <h6>Educational dropout rates</h6>
+                    <p>
+                      Despite Sri Lanka's high primary education enrollment rate (99.11% in 2018), there is a significant drop at the secondary level (91.04%). Slow learners are particularly vulnerable to dropping out due to persistent academic struggles.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="col-12">
+          <div class="divider-horizontal"></div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="col-12">
+          <div class="row g-4">
+
+            <!-- Gap 3 -->
+            <div class="col-lg-6">
+              <div class="research-card h-100">
+                <div class="research-content">
+                  <div class="icon-wrapper">
+                    <i class="bi bi-diagram-3-fill"></i>
+                  </div>
+                  <div class="text-content">
+                    <h6>Lack of integrated support systems</h6>
+                    <p>
+                      Current support systems in Sri Lanka lack comprehensiveness, failing to identify slow learners early and provide targeted interventions. Most existing tools address either identification or intervention separately.
+                    </p>
+                  </div>
+                </div>
+                <div class="divider-right"></div>
+              </div>
+            </div>
+
+            <!-- Gap 4 -->
+            <div class="col-lg-6">
+              <div class="research-card h-100">
+                <div class="research-content">
+                  <div class="icon-wrapper">
+                    <i class="bi bi-search"></i>
+                  </div>
+                  <div class="text-content">
+                    <h6>Identification and support for slow learners</h6>
+                    <p>
+                      Slow learners, defined as children with IQ between 70–85, are inadequately supported within traditional educational settings. Current tools often use outdated methodologies instead of incorporating modern technologies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .research-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid rgba(220, 53, 69, 0.15);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .research-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(220, 53, 69, 0.1);
+  }
+
+  .research-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+
+  .icon-wrapper {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff5f5;
+    border-radius: 50%;
+    border: 2px solid #f8d7da;
+  }
+
+  .icon-wrapper i {
+    font-size: 2.5rem;
+    color: #dc3545;
+  }
+
+  .text-content h6 {
+    font-weight: 600;
+    color: #343a40;
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .text-content p {
+    line-height: 1.7;
+    color: #5a6268;
+    font-size: 0.92rem;
+    margin: 0;
+  }
+
+  .divider-right::after {
+    content: '';
+    position: absolute;
+    right: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 80%;
+    border-left: 1px solid rgba(206, 212, 218, 0.5);
+  }
+
+  .divider-horizontal {
+    height: 1px;
+    border-top: 1px solid rgba(206, 212, 218, 0.5);
+    margin: 2rem 0;
+  }
+
+  @media (max-width: 992px) {
+    .divider-right::after {
+      display: none;
+    }
+
+    .research-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+
+    .icon-wrapper {
+      margin-bottom: 0.5rem;
+    }
+  }
+</style>
+
+
+
+<div class="row">
+  <div class="col-lg-12">
+    <div>
+<div style="text-align: right; margin-top: 6rem;">
+  <h4 style="margin-bottom: 0; color: #2d3e50; font-size: 2.1rem; font-weight: 700; letter-spacing: -0.5px;">
+    Research Problem
+  </h4>
+  <span style="display: inline-block; width: 90px; height: 4px; background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%); margin-top: 1rem;"></span>
+</div>
+
+      <div class="card-body" style="padding: 25px 30px;">
+        <div class="row align-items-stretch">
+          <!-- Image on Left -->
+          <div class="col-md-4 d-flex align-items-center">
+            <img src="assets/imgs/lit.jpg" alt="Literature Survey Visual Representation" style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          </div>
+
+          <!-- Divider (optional) -->
+          <div class="col-md-1 d-none d-md-flex justify-content-center align-items-center px-0 mx-2">
+            <div style="width: 2px; background-color: #ced4da; height: 90%;"></div>
+          </div>
+
+          <!-- Content on Right -->
+<div class="col-md-6" style="text-align: justify; margin-top: 2.5rem;"> <!-- Added margin-top -->
+  <h4 style="color: #2d3e50; font-weight: 700; font-size: 1.4rem; letter-spacing: -0.5px; margin-bottom: 1rem;">
+    How to identify and support slow learners in Sri Lankan primary schools through integrated digital solutions?
+  </h4>
+  <p class="subtitle" style="line-height: 1.75; color: #5a6268; margin-bottom: 1.25rem; font-size: 1rem;">
+    Nearly 30% of Sri Lankan children face learning difficulties, with slow learners (IQ 70-85) being particularly vulnerable yet often unidentified within traditional educational systems. Despite high primary enrollment rates (99.11%), secondary education shows concerning dropout rates (91.04%), especially affecting children with learning challenges. Current approaches lack early detection mechanisms and integrated support systems tailored to Sri Lankan context. There is an urgent need for a comprehensive web-based platform that can effectively evaluate writing skills, attention span, mathematical abilities, and working memory while providing real-time interventions. This research aims to develop a contextually relevant digital solution that incorporates modern technologies to improve educational outcomes for slow learners in resource-limited settings.
+  </p>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="font-family: 'Segoe UI', system-ui, sans-serif;">
+<style>
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes accentSlide {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+    }
+
+        .equal-height-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .equal-height-card .card-body {
+        flex: 1 1 auto;
+    }
+    
+    .objective-card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+        transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        animation: fadeInUp 0.8s ease-out;
+        background: white;
+    }
+    
+    .objective-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 30px rgba(6, 46, 244, 0.194);
+    }
+    
+    .accent-line {
+        width: 90px;
+        height: 4px;
+        background: linear-gradient(90deg, #3c45e7 0%, #646cff 100%);
+        margin: 0 auto;
+        animation: accentSlide 0.6s ease-out;
+    }
+    
+    .section-header {
+        background: white !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+        margin-bottom: 2rem;
+    }
+    
+    .content-card {
+        background: linear-gradient(145deg, #ffffff 0%, #f8f9ff 100%);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    
+    .card-title {
+        color: #2d3e50;
+        font-weight: 700;
+        transition: color 0.3s ease;
+    }
+    
+    .card:hover .card-title {
+        color: #3c45e7;
+    }
+    
+    .divider {
+        width: 60px;
+        height: 3px;
+        background: #3c45e7;
+        border-radius: 2px;
+        margin: 1rem 0;
+        transform-origin: left;
+        transition: transform 0.4s ease;
+    }
+    
+    .card:hover .divider {
+        transform: scaleX(1.2);
+    }
+</style>
+
+<div class="row">
+  <div class="col-lg-12">
+    <!-- Main Objective Section -->
+    <div class="section-header" style="margin-bottom: 25px;">
+      <div style="padding: 2rem 2rem 1rem; border-bottom: none;">
+        <div class="text-center">
+          <h4 style="font-size: 1.8rem; margin-bottom: 1.25rem; letter-spacing: -0.25px;" class="card-title">
+            Main Objective
+          </h4>
+          <div class="accent-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Card -->
+    <div class="objective-card content-card" style="margin-bottom: 35px;">
+      <div class="card-body" style="padding: 2.5rem;">
+        <p style="color: #4a5568; font-size: 1.05rem; line-height: 1.8; margin-bottom: 0; text-align: justify;">
+          This research aims to develop a web-based platform to identify and support slow learners among primary school children in Sri Lanka by leveraging advanced Machine Learning, image processing, and a multi-modal system architecture to assess key learning challenges including attention span, writing abilities, mathematical skills, and short-term memory. The platform will provide personalized, age-appropriate interventions through gamified methods designed to enhance student engagement and motivation, with the ultimate goal of fostering an inclusive educational environment that enables early identification of learning difficulties and improves academic performance and confidence in slow learners through interactive and effective support.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Specific Objectives Section -->
+ <div class="section-header">
+  <div style="padding: 2rem 2rem 1rem;">
+    <div class="text-center">
+      <h4 style="font-size: 1.4rem; margin-bottom: 1.25rem; letter-spacing: -0.25px;" class="card-title">
+        Specific Objectives
+      </h4>
+      <div class="accent-line" style="background: linear-gradient(90deg, #e74c3c 0%, #ff6b6b 100%);"></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid px-lg-5" style="margin-top: 1.5rem;">
+  <div class="row gx-4 gy-4">
+    <!-- Card 1 -->
+    <div class="col-md-6 col-lg-3 d-flex flex-column" style="display: flex; flex-direction: column;">
+      <div class="objective-card equal-height-card">
+        <div class="card-header bg-white" style="border-bottom: 2px solid #f0f0f0; padding: 1.5rem;">
+          <h5 class="card-title" style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 1rem;">
+            Writing Skills: Identification & Enhancement
+          </h5>
+          <div class="divider"></div>
+        </div>
+        <div class="card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+          <p style="color: #6c757d; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
+            To identify Grade 4 slow learners in Sri Lanka who experience challenges in writing skills such as letter formation and punctuation and provide early Sinhala language interventions through engaging activities that improve writing ability, boost confidence, and enhance academic performance.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6 col-lg-3 d-flex flex-column" style="display: flex; flex-direction: column;">
+      <div class="objective-card equal-height-card">
+        <div class="card-header bg-white" style="border-bottom: 2px solid #f0f0f0; padding: 1.5rem;">
+          <h5 class="card-title" style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 1rem;">
+            Attention Span: Identification & Improvement
+          </h5>
+          <div class="divider"></div>
+        </div>
+        <div class="card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+          <p style="color: #6c757d; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
+            To identify primary school children in Sri Lanka with short attention spans using face detection, gaze estimation, and head posture analysis, and to provide engaging Sinhala activities that improve attention, strengthen cognitive skills, and enhance overall learning outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-6 col-lg-3 d-flex flex-column" style="display: flex; flex-direction: column;">
+      <div class="objective-card equal-height-card">
+        <div class="card-header bg-white" style="border-bottom: 2px solid #f0f0f0; padding: 1.5rem;">
+          <h5 class="card-title" style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 1rem;">
+            Math Skills: Identification & Development
+          </h5>
+          <div class="divider"></div>
+        </div>
+        <div class="card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+          <p style="color: #6c757d; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
+            To identify Grade 4 students in Sri Lanka struggling with mathematics using machine learning, and to provide Sinhala-language, syllabus-aligned interactive exercises that strengthen math skills, boost confidence, and promote equal learning opportunities within the classroom environment.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-6 col-lg-3 d-flex flex-column" style="display: flex; flex-direction: column;">
+      <div class="objective-card equal-height-card">
+        <div class="card-header bg-white" style="border-bottom: 2px solid #f0f0f0; padding: 1.5rem;">
+          <h5 class="card-title" style="font-size: 1.1rem; line-height: 1.4; margin-bottom: 1rem;">
+            Working Memory: Assessment & Strengthening
+          </h5>
+          <div class="divider"></div>
+        </div>
+        <div class="card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+          <p style="color: #6c757d; font-size: 0.95rem; line-height: 1.6; margin-bottom: 0;">
+            To identify primary school children with working memory challenges using machine learning and cognitive assessments, and to provide tailored web-based interventions such as gamified activities and multisensory strategies that strengthen working memory and support improved learning outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </section>
+
+
+<section class="section bg-dark-2 py-5" style="background: #1a1d24;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Stats Card 1 - Days Worked -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="stats-card" style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 2rem; transition: all 0.3s ease; height: 100%;">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-container" style="width: 80px; height: 80px; background: rgba(231, 76, 60, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#e74c3c" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+                                <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                            </svg>
+                        </div>
+                        <div class="ms-4">
+                            <h2 class="display-5 fw-bold mb-0" style="color: #e74c3c; letter-spacing: -1px;">200+</h2>
+                            <p class="mb-0 text-uppercase" style="color: #a0a7b5; font-size: 0.9rem; letter-spacing: 1px;">Days Worked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Card 2 - Documents -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="stats-card" style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 2rem; transition: all 0.3s ease; height: 100%;">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-container" style="width: 80px; height: 80px; background: rgba(231, 76, 60, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#e74c3c" viewBox="0 0 16 16">
+                                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                                <path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.712 5.712 0 0 1-.911-.95 11.651 11.651 0 0 0-1.997.406 11.307 11.307 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.266.266 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.71 12.71 0 0 1 1.01-.193 11.744 11.744 0 0 1-.51-.858 20.801 20.801 0 0 1-.5 1.05zm2.446.45c.15.163.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.876 3.876 0 0 0-.612-.053zM8.078 7.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"/>
+                            </svg>
+                        </div>
+                        <div class="ms-4">
+                            <h2 class="display-5 fw-bold mb-0" style="color: #e74c3c; letter-spacing: -1px;">10</h2>
+                            <p class="mb-0 text-uppercase" style="color: #a0a7b5; font-size: 0.9rem; letter-spacing: 1px;">Documents</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Card 3 - Presentations -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="stats-card" style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 2rem; transition: all 0.3s ease; height: 100%;">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-container" style="width: 80px; height: 80px; background: rgba(231, 76, 60, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#e74c3c" viewBox="0 0 16 16">
+                                <path d="M5 6a.5.5 0 0 0-.496.438l-.5 4A.5.5 0 0 0 4.5 11h3v2.016c-.863.055-1.5.251-1.5.484 0 .276.895.5 2 .5s2-.224 2-.5c0-.233-.637-.429-1.5-.484V11h3a.5.5 0 0 0 .496-.562l-.5-4A.5.5 0 0 0 11 6H5zm2 3.78V7.22c0-.096.106-.156.19-.106l2.13 1.279a.125.125 0 0 1 0 .214l-2.13 1.28A.125.125 0 0 1 7 9.778z"/>
+                                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                            </svg>
+                        </div>
+                        <div class="ms-4">
+                            <h2 class="display-5 fw-bold mb-0" style="color: #e74c3c; letter-spacing: -1px;">4</h2>
+                            <p class="mb-0 text-uppercase" style="color: #a0a7b5; font-size: 0.9rem; letter-spacing: 1px;">Presentations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Milestones Card -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="stats-card" style="background: rgba(255,255,255,0.05); border-radius: 12px; padding: 2rem; transition: all 0.3s ease; height: 100%;">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-container" style="width: 80px; height: 80px; background: rgba(231, 76, 60, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#e74c3c" viewBox="0 0 16 16">
+                                <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.95 5.36q-.327-.354-.535-.708a6 6 0 1 1-5.962 0q-.208.354-.535.708a3 3 0 1 1-1.95-5.36Q2.5 1.038 2.5.5m.184 1.566q.088.16.183.331c.092.15.193.292.31.42a2 2 0 1 0 .787-.947Zm10.952 0a2 2 0 1 0 .787.947c.117-.128.218-.27.31-.42q.095-.17.183-.331ZM11 2.5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM5 2.5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1zm3.5 3.5a.5.5 0 0 1 .5.5v5.5a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5M4 5.5a.5.5 0 0 1 .5.5v5.5a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m7 0a.5.5 0 0 1 .5.5v5.5a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5"/>
+                            </svg>
+                        </div>
+                        <div class="ms-4">
+                            <h2 class="display-5 fw-bold mb-0" style="color: #e74c3c; letter-spacing: -1px;">8</h2>
+                            <p class="mb-0 text-uppercase" style="color: #a0a7b5; font-size: 0.9rem; letter-spacing: 1px;">Milestones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .stats-card {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: cardEntrance 0.6s ease-out forwards;
+    }
+
+    @keyframes cardEntrance {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .stats-card:hover {
+        transform: translateY(-5px) scale(1.02);
+        background: rgba(255,255,255,0.08) !important;
+        box-shadow: 0 10px 30px rgba(231, 76, 60, 0.15);
+    }
+    
+    .icon-container {
+        transition: all 0.3s ease;
+    }
+    
+    .stats-card:hover .icon-container {
+        transform: rotate(15deg) scale(1.1);
+        filter: drop-shadow(0 4px 6px rgba(231, 76, 60, 0.3));
+    }
+
+    .stats-card:nth-child(1) { animation-delay: 0.2s; }
+    .stats-card:nth-child(2) { animation-delay: 0.4s; }
+    .stats-card:nth-child(3) { animation-delay: 0.6s; }
+    .stats-card:nth-child(4) { animation-delay: 0.8s; }
+</style>
+
+<section class="section bg-custom-gray" id="soluion">
+    <div class="container">
+        <h1 class="mb-5"><span class="text-danger">Our</span> Solution</h1>
+        <div class="row align-items-center" style="margin-top: 30px; margin-bottom: 70px;">
+            <!-- Left Column: Paragraph -->
+          <div class="col-md-5" style="text-align: justify;">
+            <p class="subtitle" style="line-height: 1.75; color: #5a6268; margin-bottom: 1.25rem; font-size: 1rem;">
+              DiverseMind provides a comprehensive web-based platform to identify and support slow learners in Sri Lankan primary schools. The system evaluates four critical cognitive domains through advanced technologies. Writing skills assessment utilizes Convolutional Neural Networks (CNN) with 98% accuracy. Mathematical abilities evaluation employs Decision Tree (DT) classifiers achieving 98% accuracy. Attention span measurement uses facial landmark tracking,gaze tracking and emotion recognition with 79.69% accuracy. Working memory assessment implements ML-driven cognitive tasks demonstrating 99% accuracy. The platform delivers real-time feedback and personalized interventions tailored to the Sri Lankan curriculum and Sinhala language. Teachers monitor student progress through a dedicated dashboard. DiverseMind incorporates gamification elements and interactive exercises to create an engaging learning environment for students. The system bridges the identification-intervention gap by providing both diagnostic tools and targeted support, helping slow learners overcome specific challenges within resource-limited educational settings. This integrated approach ensures early detection and timely intervention, potentially reducing dropout rates and improving long-term academic outcomes.
+            </p>
+          </div>
+
+            <!-- Separator -->
+            <div class="col-md-1 d-none d-md-block">
+                <div style="width: 2px; height: 100%; background-color: #ccc; margin: 0 auto;"></div>
+            </div>
+
+            <!-- Right Column: Image and Caption -->
+            <div class="col-md-6 text-center">
+                <img src="assets/imgs/sys.png" alt="High-level Overall System Diagram" class="img-fluid highlevel-img mb-2">
+                <figcaption class="text-muted" style="font-size: 0.9rem;">Figure 1: System overview diagram</figcaption>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+     <!-- Technologies -->
+    <section class="section" id="technologies">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Used</span> Technologies</h2>
+            <div class="row tech-grid">
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://www.python.org/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo">
+                            <p>Python</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://www.tensorflow.org/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow Logo">
+                            <p>TensorFlow</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://opencv.org/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV Logo">
+                            <p>OpenCV</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://scikit-learn.org/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Logo">
+                            <p>Scikit-learn</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://mediapipe.dev/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://logo.svgcdn.com/s/mediapipe-dark.svg" alt="MediaPipe Logo">
+                            <p>MediaPipe</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://reactjs.org/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo">
+                            <p>React</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://fastapi.tiangolo.com/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI Logo">
+                            <p>FastAPI</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 tech-item">
+                    <a href="https://www.mongodb.com/" target="_blank">
+                        <div class="tech-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB Logo">
+                            <p>MongoDB</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .tech-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .tech-item {
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            opacity: 0;
+            animation: fadeInUp 0.6s forwards;
+            animation-delay: calc(var(--order) * 0.2s);
+        }
+
+        .tech-card {
+            background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+            border: 1px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tech-item img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .tech-item p {
+            margin: 0;
+            font-size: 1rem;
+            color: #212529;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .tech-item a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .tech-item:hover .tech-card {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(245, 19, 48, 0.2);
+        }
+
+        .tech-item:hover img {
+            box-shadow: 0 0 15px rgba(245, 19, 48, 0.5);
+        }
+
+        .tech-item:hover p {
+            color: #f51330;
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 767.98px) {
+            .tech-item img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .tech-item p {
+                font-size: 0.9rem;
+            }
+
+            .tech-card {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .tech-item img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .tech-item p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+
+        <!-- Milestones -->
+    <section class="section" id="milestones" style="background-color: #ffffff; padding: 60px 0; font-family: 'Arial', sans-serif;">
+        <div class="container">
+            <h2 class="mb-5 pb-4 text-center"><span class="text-danger">Our</span> Milestones</h2>
+            <div class="waveform-timeline">
+                <div class="timeline-node left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024</div>
+                        <h3 class="timeline-title">Project Proposal</h3>
+                        <p class="timeline-desc">A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 12%;">12%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 12</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Dec 2024</div>
+                        <h3 class="timeline-title">Progress Presentation I</h3>
+                        <p class="timeline-desc">Progress Presentation I reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 15%;">15%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 15</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2025</div>
+                        <h3 class="timeline-title">Progress Presentation II</h3>
+                        <p class="timeline-desc">Progress Presentation II reviews the 90% completion status demonstration of the project. Along with a Poster presentation which describes the project as a whole.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 18%;">18%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 18</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2025</div>
+                        <h3 class="timeline-title">Research Paper</h3>
+                        <p class="timeline-desc">Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 10%;">10%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 10</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2025</div>
+                        <h3 class="timeline-title">Final Report</h3>
+                        <p class="timeline-desc">Final Report evaluates the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 19%;">19%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 19</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2025</div>
+                        <h3 class="timeline-title">Final Presentation & Viva</h3>
+                        <p class="timeline-desc">Viva is held individually to assess each member's contribution to the project.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 20%;">20%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 20</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2025</div>
+                        <h3 class="timeline-title">Website Assessment</h3>
+                        <p class="timeline-desc">The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 2%;">2%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 2</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+                <div class="timeline-node right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025</div>
+                        <h3 class="timeline-title">Logbook</h3>
+                        <p class="timeline-desc">Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 4%;">4%</div>
+                        </div>
+                        <p class="timeline-marks">Marks Allocated: 4</p>
+                    </div>
+                    <div class="node"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mb-5 {
+            margin-bottom: 3rem;
+        }    
+        .pb-4 {
+            padding-bottom: 1.5rem;
+        }
+        .text-danger {
+            color: #F85C70;
+        }
+        .timeline-node {
+            position: relative;
+            margin-bottom: 60px;
+            display: flex;
+            align-items: center;
+        }
+        .timeline-node.left {
+            flex-direction: row;
+            padding-right: 50%;
+        }
+        .timeline-node.right {
+            flex-direction: row-reverse;
+            padding-left: 50%;
+        }
+        .node {
+            width: 24px;
+            height: 24px;
+            background: #fff;
+            border: 4px solid #F85C70;
+            border-radius: 50%;
+            z-index: 2;
+            box-shadow: 0 0 0 4px rgba(248, 92, 112, 0.3);
+            transition: all 0.3s ease;
+        }
+        .timeline-node:hover .node {
+            transform: scale(1.2);
+            border-color: #082ce1;
+            box-shadow: 0 0 0 6px rgba(35, 10, 227, 0.4);
+        }
+        .timeline-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 400px;
+            position: relative;
+        }
+        .timeline-node.left .timeline-content {
+            margin-right: 30px;
+        }
+        .timeline-node.right .timeline-content {
+            margin-left: 30px;
+        }
+        .timeline-node:hover .timeline-content {
+            box-shadow: 0 8px 25px rgba(248, 92, 112, 0.3);
+            transform: translateY(-5px);
+        }   
+        .timeline-date {
+            display: inline-block;
+            background: #F85C70;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        } 
+        .timeline-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        } 
+        .timeline-node:hover .timeline-title {
+            color: #F85C70;
+        }
+        .timeline-desc {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .progress {
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(to right, #F85C70, #071a96);
+            text-align: right;
+            padding-right: 5px;
+            color: white;
+            font-size: 0.75rem;
+            line-height: 10px;
+            font-weight: bold;
+        }
+        .timeline-marks {
+            font-size: 0.9rem;
+            color: #333;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .waveform-timeline {
+            position: relative;
+            margin: 0 auto;
+        }
+
+    .waveform-timeline::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background: #F85C70;
+        transform: translateX(-50%);
+        z-index: 1;
+        border-radius: 2px;
+    }
+
+    .timeline-node::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        height: 2px;
+        background: #F85C70;
+        z-index: 1;
+    }
+
+    .timeline-node.left::after {
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    .timeline-node.right::after {
+        right: 50%;
+        transform: translateY(-50%);
+    }
+
+    @media (max-width: 991px) {
+        .waveform-timeline::before {
+            left: 24px;
+            transform: none;
+        }
+        
+        .timeline-node::after {
+            display: none;
+        }
+        
+        .timeline-node {
+            padding-left: 60px !important;
+        }
+        
+        .node {
+            left: 0;
+            transform: translateX(0);
+        }
+    }
+
+    @media (min-width: 992px) {
+        .timeline-node.left .timeline-content::before {
+            content: '';
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-width: 10px 0 10px 10px;
+            border-style: solid;
+            border-color: transparent transparent transparent #fff;
+            z-index: 2;
+        }
+        
+        .timeline-node.right .timeline-content::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-width: 10px 10px 10px 0;
+            border-style: solid;
+            border-color: transparent #fff transparent transparent;
+            z-index: 2;
+        }
+    }
+        
+        @media (max-width: 991px) {
+            
+            .timeline-node {
+                padding: 0 0 0 60px !important;
+                flex-direction: row !important;
+                margin-bottom: 40px;
+            }
+            
+            .timeline-node.left .timeline-content,
+            .timeline-node.right .timeline-content {
+                margin-left: 15px;
+                margin-right: 0;
+                max-width: 100%;
+            }
+            
+            .node {
+                position: absolute;
+                left: 24px;
+                transform: translateX(-50%);
+            }
+            
+            .timeline-node:hover .node {
+                transform: translateX(-50%) scale(1.2);
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .timeline-content {
+                padding: 15px;
+            }
+            
+            .timeline-title {
+                font-size: 1.1rem;
+            }
+            
+            .timeline-desc {
+                font-size: 0.85rem;
+            }
+            
+            .timeline-marks {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+
+        <!-- Documents -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <section class="section" id="doc">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Our</span> Documents</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-alt text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Project Proposal</h5>
+                            <a href="https://drive.google.com/drive/folders/1fo0IT91fTlU9LX3KfVjA_TvipdRjWJ4a?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-contract text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Status Document 1</h5>
+                            <a href="https://drive.google.com/drive/folders/1JVs2b9rUASnSfF06-r0IzhPQSl3i6rnS?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-powerpoint text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Progress Presentation - 1</h5>
+                            <a href="https://drive.google.com/drive/folders/160TDxw0IDr7BRY9tVAzwoC54bXg5jMTu?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-signature text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Research Paper</h5>
+                            <a href="https://drive.google.com/drive/folders/1Vkn96YMZvHqJCxBjQw9-wvca-3sybybA?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-powerpoint text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Progress Presentation - 2</h5>
+                            <a href="https://drive.google.com/drive/folders/1NYZciSZVfjoe3VpjOUtPYgovkd66dxph?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-invoice text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Final Report & Presentation</h5>
+                            <a href="https://drive.google.com/drive/folders/1Z9EtPFbN1F6wJ0Z2l7xxZ6u8TxDA-WTD?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="doc-card">
+                        <div class="doc-card-header">
+                            <i class="fas fa-file-contract text-danger"></i>
+                        </div>
+                        <div class="doc-card-body">
+                            <h5 class="doc-card-title">Status Document 2</h5>
+                            <a href="https://drive.google.com/drive/folders/1VJ8IhEOda8IW5e47TJU0zSfSUAIhvluk?usp=drive_link" class="btn btn-outline-primary" target="_blank">View Document</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+    .doc-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .doc-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .doc-card-header {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .doc-card-header i {
+        font-size: 2.5rem;
+        color: #F85C70;
+    }
+
+    .doc-card-body {
+        padding: 20px;
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .doc-card-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #212529;
+        margin-bottom: 15px;
+    }
+
+    .btn-outline-primary {
+        border-color: #F85C70;
+        color: #F85C70;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #F85C70;
+        color: #fff;
+        border-color: #F85C70;
+    }
+
+    @media (max-width: 767.98px) {
+        .doc-card-header {
+            padding: 15px;
+        }
+
+        .doc-card-header i {
+            font-size: 2rem;
+        }
+
+        .doc-card-body {
+            padding: 15px;
+        }
+
+        .doc-card-title {
+            font-size: 1.1rem;
+        }
+
+        .btn-outline-primary {
+            padding: 8px 16px;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .doc-card-header {
+            padding: 12px;
+        }
+
+        .doc-card-header i {
+            font-size: 1.8rem;
+        }
+
+        .doc-card-title {
+            font-size: 1rem;
+        }
+
+        .btn-outline-primary {
+            padding: 6px 12px;
+            font-size: 0.8rem;
+        }
+    }
+    </style>
+
+<div class="col-lg-12 about-card" style="padding: 4rem 0; background: #f8f9fa;" id="about">
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .team-member-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 0.5rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            animation: fadeIn 0.6s ease-out forwards;
+            opacity: 0;
+            width: 240px;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .team-member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(231, 76, 60, 0.1);
+        }
+        
+        .member-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 0.5rem;
+            display: block;
+            border: 2px solid  #F85C70;
+        }
+        
+        .role-label {
+            color: #F85C70;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 auto 0.5rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid  #F85C70;
+        }
+        
+        .image-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 0 0.5rem;
+        }
+        
+        .member-name {
+            font-weight: 600 !important;
+            color: #2d3e50 !important;
+            font-size: 0.95rem !important;
+            margin: 0.2rem 0 !important;
+            line-height: 1.3;
+        }
+        
+        .member-detail {
+            color: #6c757d !important;
+            font-size: 0.75rem !important;
+            line-height: 1.4;
+            margin: 0.1rem 0;
+        }
+        
+        h3.font-weight-light {
+            font-size: 1.8rem;
+            color: #2d3e50;
+            text-align: center;
+            margin-bottom: 1.5rem !important;
+        }
+        
+        .line {
+            display: block;
+            width: 60px;
+            height: 2px;
+            background:  #F85C70;
+            margin: 0 auto 2rem;
+        }
+        
+        .social-links {
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .social-icon {
+            color: #6c757d;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+        
+        .social-icon:hover {
+            color:  #F85C70;
+            transform: translateY(-2px);
+        }
+        
+        .team-member-card:nth-child(1) { animation-delay: 0.2s; }
+        .team-member-card:nth-child(2) { animation-delay: 0.4s; }
+        .team-member-card:nth-child(3) { animation-delay: 0.6s; }
+        .team-member-card:nth-child(4) { animation-delay: 0.8s; }
+        .team-member-card:nth-child(5) { animation-delay: 1.0s; }
+        .team-member-card:nth-child(6) { animation-delay: 1.2s; }
+        .team-member-card:nth-child(7) { animation-delay: 1.4s; }
+        .team-member-card:nth-child(8) { animation-delay: 1.6s; }
+    </style>
+
+    <h3 class="font-weight-light">Meet Our Team</h3>
+    <span class="line mb-5"></span>
+    <div class="container">
+        <div class="row justify-content-center g-2">
+            <!-- Supervisor -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/Pro.Samantha.jpg" alt="Supervisor" class="member-img">
+                        <p class="role-label">Supervisor</p>
+                        <p class="member-name">Prof. Samantha Thelijjagoda</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Co-supervisor -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/Ms.Jenny.jpeg" alt="Co-supervisor" class="member-img">
+                        <p class="role-label">Co-supervisor</p>
+                        <p class="member-name">Ms. Jenny Krishara</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <p class="member-detail">Department of Information Technology</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- External Supervisor 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/Dr.Nimasha.jpg" alt="External Supervisor" class="member-img">
+                        <p class="role-label">External Supervisor</p>
+                        <p class="member-name">Dr. Nimasha Gamhewage</p>
+                        <p class="member-detail">Pediatric Nutritionist</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- External Supervisor 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/Mr.Gamini.jpg" alt="External Supervisor" class="member-img">
+                        <p class="role-label">External Supervisor</p>
+                        <p class="member-name">Ms. K.D. Gamini Udaya Kumara</p>
+                        <p class="member-detail">In-Service Advisor</p>
+                        <p class="member-detail">Zonal Education Office Kurunegala</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- External Supervisor 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/Mr.Chamil.jpg" alt="External Supervisor" class="member-img">
+                        <p class="role-label">External Supervisor</p>
+                        <p class="member-name">Mr. Chamil Diluksha</p>
+                        <p class="member-detail">Senior Software Engineer</p>
+                        <p class="member-detail">Sysco Labs Sri Lanka</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Leader -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/heshan.png" alt="Team Leader" class="member-img">
+                        <p class="role-label">Team Leader</p>
+                        <p class="member-name">Jayasundara J.M.H.H.</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <p class="member-detail">Department of Information Technology</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/sasrika.jpg" alt="Team Member" class="member-img">
+                        <p class="role-label">Team Member</p>
+                        <p class="member-name">Neewin S.L.</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <p class="member-detail">Department of Information Technology</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/chathura.jpg" alt="Team Member" class="member-img">
+                        <p class="role-label">Team Member</p>
+                        <p class="member-name">Kiriwaththuduwa K.C.N</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <p class="member-detail">Department of Information Technology</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="team-member-card">
+                    <div class="image-wrapper">
+                        <img src="assets/imgs/rashini.jpg" alt="Team Member" class="member-img">
+                        <p class="role-label">Team Member</p>
+                        <p class="member-name">Herath H.M.R.M.K.</p>
+                        <p class="member-detail">Sri Lanka Institute of Information Technology (SLIIT)</p>
+                        <p class="member-detail">Department of Information Technology</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+    <!-- Contact Us -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="mb-3 contact-title"><span class="text-danger">Contact</span> Us</h2>
+            <h4 class="mb-5">Get In Touch</h4>
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <div class="contact-form-card">
+                        <form>
+                            <div class="form-group mb-4">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="message">Message or Query</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Type your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info-card text-center mt-5">
+                <h5>Contact Details</h5>
+                <p class="mb-2">For further queries please reach us at <a href="mailto:diversemind25@gmail.com">diversemind25@gmail.com</a></p>
+                <p class="mb-2">Hope this project helped you in some manner. Thank you!</p>
+                <p class="font-weight-bold">- Team DiverseMind</p>
+            </div>
+        </div>
+    </section>
+
+    <style>
+    .contact-form-card {
+        padding: 35px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form-card .form-control {
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .contact-form-card .form-control:focus {
+        border-color: #F85C70;
+        box-shadow: 0 0 5px rgba(248, 92, 112, 0.3);
+        outline: none;
+    }
+
+    .contact-form-card label {
+        font-weight: 600;
+        color: #212529;
+    }
+
+    .contact-form-card .btn-primary {
+        background-color: #F85C70;
+        border-color: #F85C70;
+        font-weight: 600;
+        padding: 12px;
+        transition: background-color 0.3s ease;
+    }
+
+    .contact-form-card .btn-primary:hover {
+        background-color: #f51330;
+        border-color: #f51330;
+    }
+
+    .contact-info-card {
+        padding: 20px;
+    }
+
+    .contact-info-card h5 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .contact-info-card p {
+        font-size: 1rem;
+        color: #212529;
+    }
+
+    .contact-info-card a {
+        color: #F85C70;
+        text-decoration: none;
+    }
+
+    .contact-info-card a:hover {
+        color: #f51330;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 991.98px) {
+        .contact {
+            padding: 60px 0;
+        }
+
+        .contact-form-card {
+            padding: 25px;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .contact-form-card {
+            padding: 20px;
+        }
+
+        .contact-form-card .btn-primary {
+            padding: 10px;
+        }
+
+        .contact-info-card h5 {
+            font-size: 1.1rem;
+        }
+
+        .contact-info-card p {
+            font-size: 0.9rem;
+        }
+    }
+    </style>
+	
+
+    <footer class="footer" style="background: #c2c2c2; color: #333333; padding: 20px 0; text-align: center; font-family: 'Source Sans Pro', sans-serif;">
+        <div class="container">
+            <img src="assets/imgs/DM.png" alt="DM Logo" class="footer-logo" style="max-width: 200px; height: auto; margin-bottom: 15px; border-radius: 5px;">
+            <p class="footer-text" style="font-size: 1.0rem; margin-bottom: 10px;">DiverseMind - Indentify Slow learners using kid web app.</p>
+            <p class="footer-text" style="font-size: 0.9rem; margin-bottom: 10px;">Email: diversemind25@gmail.com | Proudly present by team DiverseMind</p>
+            <p class="footer-text" style="font-size: 0.8rem; margin-bottom: 10px;">© 2025 DiverseMind App. All rights reserved. | May 20, 2025</p>
+        </div>
+    </footer>
+
+    <style>
+    .footer-logo {
+        transition: transform 0.3s ease;
+        animation: logoPulse 2s infinite ease-in-out;
+    }
+
+    .footer-logo:hover {
+        transform: scale(1.05);
+    }
+
+    .footer-text {
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+    }
+
+    @keyframes logoPulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    @media (max-width: 767.98px) {
+        .footer-logo {
+            max-width: 100px;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    </style>
+</body>
+</html>
